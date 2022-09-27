@@ -180,7 +180,7 @@ resource "aws_security_group" "Jenkins_Con" {
 #Create Keypair
 resource "aws_key_pair" "testworld" {
   key_name   = "testworld"
-  public_key = file("/Users/apple/Documents/DevOps Project/Containerisation-using-pipeline/Containerisation-project/testworld.pub")
+  public_key = file("/Users/apple/Documents/DevOps Project/Containerisation-project/testworld.pub")
 }
 
 #Provisioning of WebServers
