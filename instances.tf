@@ -189,7 +189,7 @@ resource "aws_instance" "SERVER1" {
   vpc_security_group_ids      = ["${aws_security_group.Jenkins_Con.id}"]
   key_name                    = aws_key_pair.testworld.key_name
   instance_type               = "t2.micro"
-  ami                         = "ami-018d291ca9ffc002f"
+  ami                         = "ami-02ea247e531eb3ce6"
   associate_public_ip_address = true
 
   tags = {
@@ -203,7 +203,7 @@ resource "aws_instance" "SERVER2" {
   vpc_security_group_ids      = ["${aws_security_group.Jenkins_Con.id}"]
   key_name                    = aws_key_pair.testworld.key_name
   instance_type               = "t2.micro"
-  ami                         = "ami-018d291ca9ffc002f"
+  ami                         = "ami-02ea247e531eb3ce6"
   associate_public_ip_address = true
 
   tags = {
@@ -217,7 +217,7 @@ resource "aws_instance" "SERVER3" {
   vpc_security_group_ids      = ["${aws_security_group.Jenkins_Con.id}"]
   key_name                    = aws_key_pair.testworld.key_name
   instance_type               = "t2.micro"
-  ami                         = "ami-018d291ca9ffc002f"
+  ami                         = "ami-02ea247e531eb3ce6"
   associate_public_ip_address = true
 
   tags = {
